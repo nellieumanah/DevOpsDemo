@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
-app.listen(port, () => {
+app.listen(port,"0.0.0.0", () => {
     console.log(`DevOps Demo App Running. Visit: http://localhost:${port} is running locally, or http://[ server IP]:${port} if on a server.`)
 })
