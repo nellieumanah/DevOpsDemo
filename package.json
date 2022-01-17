@@ -1,0 +1,18 @@
+{
+  "name": "devops-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:watch": "nodemon main.js",
+    "test": "echo \"Success\""
+  },
+  "keywords": [],
+  "author": "Blackburn Labs",
+  "license": "None",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
